@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Профессиональный Психолог</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#000000',secondary:'#666666'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Inter', sans-serif;
+scroll-behavior: smooth;
+}
+.playfair {
+font-family: 'Playfair Display', serif;
+}
+.hero-image {
+height: 90vh;
+object-fit: cover;
+object-position: center;
+}
+input:focus, textarea:focus {
+outline: none;
+border-color: #000;
+}
+.form-input {
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid #e5e5e5;
+padding: 0.75rem 0;
+transition: all 0.3s ease;
+}
+.form-input:focus {
+border-bottom: 1px solid #000;
+}
+</style>
+</head>
+<body class="bg-white text-gray-900">
+<!-- Hero Section -->
+<section class="w-full relative h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden">
+     <img src="ava.jpg" alt="Professional Psychologist" class="w-full h-full object-cover object-top">
+     <div class="absolute top-1/2 left-8 md:left-16 transform -translate-y-1/2">
+          <h1 class="text-white text-4xl md:text-5xl lg:text-6xl playfair font-light">Сабина Старовойтенко</h1>
+          <p class="text-white text-xl md:text-2xl mt-2 font-light">Клинический психолог</p>
+     </div>
+</section>
+<!-- About Section -->
+<section class="w-full py-24 px-6 md:px-16 lg:px-24 max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24">
+<div>
+<h2 class="text-3xl md:text-4xl playfair mb-6">Мой Подход</h2>
+<div class="w-16 h-0.5 bg-black mb-8"></div>
+<p class="text-lg leading-relaxed text-gray-700">
+Я верю в создание безопасного пространства без осуждения, где вы можете свободно исследовать свои мысли и чувства. Моя практика направлена на то, чтобы помочь вам развить более глубокое самосознание и получить практические инструменты для преодоления жизненных трудностей.
+</p>
+</div>
+<div>
+<h2 class="text-3xl md:text-4xl playfair mb-6">Философия</h2>
+<div class="w-16 h-0.5 bg-black mb-8"></div>
+<p class="text-lg leading-relaxed text-gray-700">
+Путь каждого человека уникален. Я объединяю научно обоснованные подходы с техниками осознанности для создания персонализированных планов консультаций, учитывающих ваши индивидуальные потребности и цели. Вместе мы будем работать над значимыми изменениями в комфортном для вас темпе.
+</p>
+</div>
+</div>
+</section>
+<!-- Price Section -->
+<section class="w-full py-24 px-6 bg-gray-50">
+<div class="max-w-3xl mx-auto text-center">
+<h2 class="text-3xl md:text-4xl playfair mb-12">Стоимость Консультации</h2>
+<div class="border border-gray-200 p-10 md:p-16 rounded transition-all hover:shadow-md bg-white">
+<h3 class="text-2xl font-light mb-2">Индивидуальная Сессия</h3>
+<p class="text-4xl md:text-5xl font-light mb-6">2500 ₽</p>
+<p class="text-gray-600 max-w-md mx-auto">
+60-минутная сессия, включающая персонализированный подход к лечению,
+постоянную оценку прогресса и поддержку между сессиями по необходимости.
+</p>
+
+<button onclick="window.open('https://t.me/who_is_sabina', '_blank')"
+     class="mt-8 px-8 py-3 bg-black text-white !rounded-button whitespace-nowrap transition-all hover:bg-gray-800">
+     Записаться на Сессию
+</button>
+
+</div>
+</div>
+</section>
+<!-- Education Section -->
+<section class="w-full py-24 px-6 md:px-16 lg:px-24 max-w-7xl mx-auto">
+<h2 class="text-3xl md:text-4xl playfair mb-12 text-center">Образование и Сертификаты</h2>
+<div class="max-w-3xl mx-auto">
+<div class="relative pl-8 pb-12 border-l border-gray-200">
+<div class="absolute left-0 top-0 w-4 h-4 bg-black rounded-full -translate-x-2"></div>
+<div class="mb-2">
+<span class="text-gray-500">2024</span>
+</div>
+<h3 class="text-xl font-medium mb-2">Клинический психолог. Диагностика, коррекция и восстановление психической деятельности при различных патологических состояниях и аномалиях развития</h3>
+<p class="text-gray-700">Институт прикладной психологии в социальной сфере</p>
+</div>
+<!-- <div class="relative pl-8 pb-12 border-l border-gray-200">
+<div class="absolute left-0 top-0 w-4 h-4 bg-black rounded-full -translate-x-2"></div>
+<div class="mb-2">
+<span class="text-gray-500">2016 - 2018</span>
+</div>
+<h3 class="text-xl font-medium mb-2">Магистр Психологического Консультирования</h3>
+<p class="text-gray-700">Колумбийский Университет</p>
+</div>
+<div class="relative pl-8 pb-12 border-l border-gray-200">
+<div class="absolute left-0 top-0 w-4 h-4 bg-black rounded-full -translate-x-2"></div>
+<div class="mb-2">
+<span class="text-gray-500">2012 - 2016</span>
+</div>
+<h3 class="text-xl font-medium mb-2">Бакалавр Психологии</h3>
+<p class="text-gray-700">Калифорнийский Университет в Беркли</p>
+</div> -->
+<div class="relative pl-8">
+<div class="absolute left-0 top-0 w-4 h-4 bg-black rounded-full -translate-x-2"></div>
+<div class="mb-2">
+<span class="text-gray-500">Сертификаты</span>
+</div>
+<h3 class="text-xl font-medium mb-2">Профессиональные квалификации</h3>
+<ul class="text-gray-700 space-y-2">
+<li>- Основы когнитивно-поведенческой психотерапии. Ассоциация когнитивно-поведенческой психотерапии</li>
+<li>- Введение в терапию. Терапевтические отношения. Ассоциация когнитивно-поведенческой психотерапии</li>
+<!-- <li>Практик по Снижению Стресса на основе Осознанности (MBSR)</li> -->
+</ul>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="w-full py-24 px-6 md:px-16 lg:px-24 bg-gray-50">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-3xl md:text-4xl playfair mb-12 text-center">Свяжитесь со Мной</h2>
+<div class="max-w-xl mx-auto">
+<h3 class="text-xl font-medium mb-6">Контактная Информация</h3>
+<div class="space-y-6">
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center mr-4">
+<i class="ri-phone-line text-xl"></i>
+</div>
+<div>
+<p class="text-gray-900">+79963300647</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center mr-4">
+<i class="ri-mail-line text-xl"></i>
+</div>
+<div>
+<p class="text-gray-900">khadzugova@mail.ru</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center mr-4">
+<i class="ri-telegram-line text-xl"></i>
+</div>
+<div>
+<a href="https://t.me/who_is_sabina" class="text-gray-900 hover:text-black">@who_is_sabina</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-8 px-6 text-center text-gray-500 text-sm">
+<p>&copy; 2025 Сабина Старовойтенко. Все права защищены.</p>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+const buttons = document.querySelectorAll('button');
+buttons.forEach(button => {
+button.addEventListener('click', function(e) {
+e.preventDefault();
+// Button click animation
+this.classList.add('scale-95');
+setTimeout(() => {
+this.classList.remove('scale-95');
+}, 100);
+});
+});
+});
+</script>
+</body>
+</html>
